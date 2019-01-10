@@ -1,0 +1,12 @@
+[package]
+name = "tcp-relay"
+version = "0.1.0"
+authors = ["lcdtyph <lcdtyph@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+mio = "0.6"
+
+[dependencies.clap]
+version = "~2.27.0"
+default-features = false
